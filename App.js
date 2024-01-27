@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 /**
  * creating a nested struture using react as per the below given example:
  *
@@ -24,7 +26,11 @@
 
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child" }, [
-    React.createElement("h1", { id: "nestedH1" }, "I am a H1 Tag"),
+    React.createElement(
+      "h1",
+      { id: "nestedH1" },
+      "Hello World, this is Jay Patel"
+    ),
     React.createElement("h2", { id: "nestedH1" }, "I am a H2 Tag"),
   ]),
   React.createElement("div", { id: "child2" }, [
