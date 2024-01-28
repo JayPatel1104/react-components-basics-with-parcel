@@ -12,9 +12,9 @@ console.log(jsxHeading);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const HeadingComponent = () => (
-  <div id="container">
+  <div id="container" className="heading">
     <h1>This is a heading component using functional component</h1>
   </div>
 );
 
-root.render(jsxHeading);
+root.render(<HeadingComponent />);
