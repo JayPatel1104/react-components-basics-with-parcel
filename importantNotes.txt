@@ -1,0 +1,41 @@
+/**
+ * how jsx code is executed:
+ *
+ * Step 1: Babel converts the jsx code into reactDOM element
+ * Step 2: now the reactDOM is converted into an JS object
+ * Step 3: finally, the element is rendered into html file
+ *
+ * Note: This whole process is managed by parcel bundler
+ *
+ */
+
+//react components
+
+/**
+ * types of components:
+ *
+ *  1. Class-based components
+ *      --older way
+ *  2. Functional-based components
+ *      --latest way
+ */
+
+//React functional component:
+
+/**
+ * What is react component?
+ *
+ * A react component is a javascript function returning react element in jsx form.
+ */
+
+//First way of writing component
+
+// const HeadingComponent = () => {
+//   return <h1>This is a heading component using functional component</h1>;
+// };
+
+//other way to write react functional component
+
+const HeadingComponent = () => (
+  <h1>This is a heading component using functional component</h1>
+);
