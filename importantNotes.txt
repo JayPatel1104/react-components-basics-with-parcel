@@ -39,3 +39,7 @@
 const HeadingComponent = () => (
   <h1>This is a heading component using functional component</h1>
 );
+
+What is component composition?
+
+component inside a component is known as component composition
